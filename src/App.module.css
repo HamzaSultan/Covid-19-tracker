@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(228, 228, 228, 0.767);
+    /* background-image: url(image.jpeg); */
+    background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image.container {
+    width:"1000"; 
+    height:"200"; 
+    alt:"logo";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .image {
+    width: 370px;
+    margin-top: 50px;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 100%;
+    }
+  }
